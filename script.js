@@ -29,7 +29,7 @@ celebrate.addEventListener("click", () => {
 function createConfetti() {
     for (let i = 0; i < 120; i++) {
         const confetti = document.createElement("div");
-        confetti.innerHTML = ["🎉","✨","💙","🎈","🎊"][Math.floor(Math.random() * 5)];
+        confetti.innerHTML = ["🎉", "✨", "💙", "🎈", "🎊"][Math.floor(Math.random() * 5)];
 
         confetti.style.position = "fixed";
         confetti.style.left = Math.random() * 100 + "vw";
