@@ -1,3 +1,4 @@
+// Updated 
 const openBtn = document.getElementById("openBtn");
 const envelopeSection = document.getElementById("envelopeSection");
 const cakeSection = document.getElementById("cakeSection");
